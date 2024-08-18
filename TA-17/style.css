@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    background-color: aqua;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.avatar {
+    position: absolute;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 50px;
+    left: -20px;
+    top: -25px;
+}

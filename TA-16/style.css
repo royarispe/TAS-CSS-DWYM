@@ -1,0 +1,50 @@
+body{
+    background-color: red;
+}
+
+p {
+    font-size: 24px;
+}
+
+img {
+    width: 50%;
+}
+
+div{
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width: 1439px) and (min-width: 769px) {
+    body {
+        background-color: white;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 425px) {
+    body {
+        background-color: green;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        background-color: blue;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
